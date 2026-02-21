@@ -1,0 +1,147 @@
+# Laporan pertemuan 2 sistem operasi
+
+<h4>Nama : Hafidza Tsamara Zahra<h4>
+<h4>NIM : 254107020034<h4>
+<h4>Kelas : TI-1G<h4>
+
+## Latihan
+
+### 1.10.1. Latihan Konseptual
+### Pertanyaan
+1.1 Jelaskan 5 fungsi utama sistem operasi dengan contoh konkret dari minimal 2
+OS berbeda (Windows, macOS, atau Linux).
+1.2 Kapan sebaiknya menggunakan Windows vs Linux vs macOS? Analisis
+berdasarkan use case: gaming, development, server, creative work, dan enterprise
+
+### jawaban
+1.1 A. Manajemen Proses
+    Mengatur jalannya program.
+
+    -Windows: Task Manager
+
+    -Linux: ps, kill
+
+    B. Manajemen Memori
+    Mengatur penggunaan RAM & virtual memory.
+
+    -Windows: Paging file
+
+    -Linux: Swap
+
+    C.Manajemen File System
+    Mengatur penyimpanan & izin file.
+
+    -Windows: NTFS
+
+    -Linux: ext4
+
+    -macOS: APFS
+
+    D.Manajemen Perangkat
+    Mengatur driver hardware.
+    
+    -Windows: Device Manager
+
+    -Linux: Kernel driver
+
+    E.Keamanan & Hak Akses
+
+    Mengatur user & permission.
+
+    -Windows: UAC
+
+    -Linux/macOS: sudo & rwx
+
+1.2 Gaming: Windows (kompatibilitas terbaik)
+
+Development: Linux / macOS
+
+Server: Linux
+
+Creative work: macOS
+
+Enterprise: Windows (client) + Linux (server)
+
+### 1.10.2. Latihan Praktika
+### pertanyaan
+
+1.3 Install Ubuntu Server 22.04 LTS di VirtualBox dengan langkah berikut:
+1. Download Ubuntu Server ISO dari website resmi
+2. Create VM baru di VirtualBox (RAM: 2GB, Disk: 25GB)
+3. Install dengan automatic partitioning (guided)
+4. Buat user account dengan password yang kuat
+5. Reboot dan login ke sistem
+6. Dokumentasikan proses instalasi dengan screenshot key steps
+
+1.4 Setelah instalasi Ubuntu Server, lakukan tasks berikut:
+1. Update package list: sudo apt update
+2. Upgrade packages: sudo apt upgrade
+3. Install neofetch: sudo apt install neofetch
+4. Jalankan neofetch dan screenshot hasilnya
+5. Check disk usage dengan df -h
+6. Check memory dengan free -h
+7. Dokumentasikan output dari setiap command
+
+1.5 Eksplorasi sistem yang baru diinstall:
+1. Tampilkan informasi OS: cat /etc/os-release
+2. Tampilkan versi kernel: uname -r
+3. List partisi: lsblk
+4. Check network connectivity: ping -c 4 google.com
+5. Install dan jalankan htop untuk melihat resource usage
+6. Buat laporan singkat tentang konfigurasi sistem Anda
+
+### jawaban
+1.3 
+
+<img src="Screenshot 2026-02-22 052947.png" width="70%">
+<img src="Screenshot 2026-02-22 053343.png" width="70%">
+<img src="Screenshot 2026-02-22 053721.png" width="70%">
+<img src="Screenshot 2026-02-22 053812.png
+" width="70%">
+
+1.4
+
+<img src="Screenshot 2026-02-22 054731.png" width="70%">
+<img src="Screenshot 2026-02-22 054750.png" width="70%">
+
+1.5
+
+Sistem yang digunakan adalah Ubuntu 22.04.5 LTS (Jammy Jellyfish) dengan kernel 5.15.0-1070-generic.
+
+Penyimpanan menggunakan disk 25GB dengan partisi /boot dan root (/) berbasis LVM.
+
+RAM yang tersedia sekitar 2GB, dengan penggunaan awal sekitar 200MB dan CPU dalam kondisi idle (rendah).
+
+Koneksi jaringan berjalan normal dan dapat terhubung ke internet.
+
+Secara keseluruhan, sistem terinstal dengan baik dan berjalan stabil.
+
+<img src="Screenshot 2026-02-22 055034.png" width="70%">
+<img src="Screenshot 2026-02-22 055112.png" width="70%">
+
+### 1.10.3. Latihan Refleksi
+### pertanyaan
+1.6 Ceritakan pengalaman Anda dengan sistem operasi:
+1. Sistem operasi apa yang Anda gunakan sehari-hari? (Windows, macOS,
+Linux, atau lainnya)
+2. Berapa lama Anda menggunakan sistem operasi tersebut?
+3. Apa yang Anda sukai dari sistem operasi tersebut?
+4. Apa tantangan atau masalah yang pernah Anda hadapi?
+5. Apakah Anda pernah menggunakan sistem operasi lain? Bandingkan
+pengalaman Anda.
+6. Setelah mempelajari bab ini, apakah ada sistem operasi lain yang ingin
+Anda coba? Mengapa?
+Tulis refleksi Anda dalam 300-500 kata disertai dengan dokumentasi.
+
+### jawaban
+Sistem operasi yang saya gunakan sehari-hari adalah Windows. Saya sudah menggunakan Windows sejak lama, mulai dari pertama kali belajar menggunakan komputer hingga sekarang. Karena sudah terbiasa, saya merasa cukup nyaman dan familiar dengan tampilan serta cara kerjanya.
+
+Hal yang saya sukai dari Windows adalah tampilannya yang mudah dipahami dan user-friendly. Menu dan pengaturannya cukup jelas sehingga tidak terlalu sulit untuk dipelajari, bahkan bagi pemula. Selain itu, Windows memiliki kompatibilitas software yang sangat luas. Banyak aplikasi yang saya gunakan, seperti Microsoft Office, browser, serta berbagai aplikasi pendukung pembelajaran, berjalan dengan baik di Windows. Untuk hiburan seperti game juga lebih mudah dan kompatibel dibandingkan sistem operasi lain.
+
+Namun, ada beberapa tantangan yang pernah saya hadapi saat menggunakan Windows. Salah satunya adalah sistem yang terkadang terasa berat atau lambat, terutama jika terlalu banyak aplikasi berjalan bersamaan. Selain itu, update otomatis terkadang muncul di waktu yang kurang tepat dan memerlukan restart, yang bisa mengganggu aktivitas. Masalah virus atau malware juga menjadi tantangan jika tidak berhati-hati saat mengunduh file dari internet.
+
+Sejauh ini saya belum pernah menggunakan sistem operasi lain sebagai sistem utama. Saya hanya mengetahui secara umum tentang Linux dan macOS dari pembelajaran dan internet. Windows menurut saya lebih mudah karena sudah terbiasa, tetapi saya menyadari bahwa sistem operasi lain memiliki keunggulan masing-masing. Misalnya, Linux dikenal lebih ringan dan sering digunakan untuk server serta pengembangan sistem. Sementara macOS terkenal stabil dan banyak digunakan untuk pekerjaan kreatif seperti desain dan editing.
+
+Setelah mempelajari bab ini, saya tertarik untuk mencoba Linux dan juga macOS. Saya ingin mencoba Linux karena banyak digunakan dalam dunia server dan pengembangan, serta dikenal lebih fleksibel dan open source. Selain itu, saya juga penasaran dengan macOS karena sering disebut memiliki performa yang stabil dan optimal untuk produktivitas. Dengan mencoba sistem operasi lain, saya berharap bisa memperluas pengetahuan dan memahami perbedaan karakteristik masing-masing sistem operasi.
+
+<img src="Screenshot 2026-02-22 055909.png" width="70%">
