@@ -29,7 +29,7 @@ berdasarkan use case: gaming, development, server, creative work, dan enterprise
     -Linux: Swap
 
     C.Manajemen File System
-    Mengatur penyimpanan & izin file.
+    Mengatur penyimpanan & Izin file.
 
     -Windows: NTFS
 
